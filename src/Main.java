@@ -5,8 +5,8 @@ public class Main {
         boolean isGreenLight = false;
         boolean isRedLight = true;
 
-        int speedOfPlayer1 = 0;
-        int speedOfPlayer2 = 0;
+        int speedOfPlayer1 = 3;
+        int speedOfPlayer2 = 6;
         int speedOfPlayer3 = 2;
 
 
