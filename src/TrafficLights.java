@@ -1,38 +1,13 @@
 public class TrafficLights {
 
-    public static boolean isRedLight = true;
-
-    public static int speedOfPlayer(int speedOfPlayerx) {
-
-//        int speedOfPlayer1 = x;
-//        int speedOfPlayer2 = y;
-//        int speedOfPlayer3 = z;
+    public static boolean isGreenLight;
 
 
-//        if (false) {
-//            System.out.println("Все игроки могут двигаться");
-//        }
-        if (isRedLight) {
+    public static String speedOfPlayer(int speedOfPlayerx) {
+
             if (speedOfPlayerx > 0) {
-//                System.out.println("1");
-                return (1);
+                return ("Игрок выбывает");
             }
-//            if (y > 0) {
-////                System.out.println("1");
-//                return (1);
-//            }
-//            if (z > 0) {
-////                System.out.println("1");
-//                return (1);
-//            }
-
-//            if (y > 0) {
-//                System.out.println("1");
-//            }
-//            if (z > 0) {
-//                System.out.println("1");
+            return "Игрок остается";
         }
-        return speedOfPlayerx;
     }
-}
-
